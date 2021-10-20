@@ -1,0 +1,160 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700&display=fallback");
+
+.ios .iosOnly,
+.android .androidOnly,
+.twitter .twitterOnly,
+.instagram .instagramOnly,
+.tiktok .tiktokOnly,
+.snapchat .snapchatOnly {
+  display: unset;
+}
+
+body {
+  background-color: white;
+}
+
+#detailsContainer,
+#nameScreen,
+#nameScreen label,
+#nameScreen input {
+  font-family: "Montserrat";
+}
+
+#introScreenDesktop h1 {
+  font-family: "Montserrat";
+  font-size: 2rem;
+  line-height: 2.3rem;
+  padding-bottom: 6px;
+}
+
+@supports (-webkit-touch-callout: none) {
+  /* CSS specific to iOS devices */
+  #playButton img {
+    clip-path: circle(31.5px at center);
+    backdrop-filter: blur(4px);
+    -webkit-backdrop-filter: blur(4px);
+    background-color: rgba(255, 255, 255, 0.1);
+  }
+}
+
+#introHostName {
+  font-family: "Montserrat";
+  margin: 2rem 4rem 0 1.5rem;
+}
+
+#introTitle {
+  font-family: "Montserrat";
+  font-weight: 700;
+  margin: 0 6rem 0 1.5rem;
+  font-size: 2.2rem;
+  line-height: 1.2;
+}
+
+#recordButton {
+  font-family: "Montserrat";
+  font-weight: 600;
+  color: white;
+  letter-spacing: 0.05rem;
+}
+
+#uploadLink {
+  color: white;
+  font-family: "Montserrat";
+  font-weight: 400;
+  font-size: 14px;
+}
+
+#uploadLink span {
+  color: white;
+  font-family: "Montserrat";
+  font-weight: 400;
+  font-size: 14px;
+}
+
+#introTerms {
+  text-align: center;
+  font-family: "Montserrat";
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 17px;
+  width: 80%;
+  margin: 18px auto 6px auto;
+}
+
+#introTerms a {
+  color: white;
+}
+
+#buttonsContainer button {
+  font-family: "Montserrat";
+  font-weight: 600;
+  color: white;
+  letter-spacing: 0.05rem;
+}
+
+#buttonsContainer button.buttonSkip {
+  background-color: transparent;
+}
+
+#nameScreen h1 {
+  font-family: "Montserrat";
+  font-size: 1.3rem;
+  line-height: 1.5rem;
+  padding-bottom: 0;
+}
+
+#nameScreen .formInput {
+  font-family: "Montserrat";
+}
+
+#nameScreen .formInput:focus {
+  outline: none;
+}
+
+#nameScreen label {
+  font-family: "Montserrat";
+  color: #595a5a;
+  font-weight: 600;
+  font-size: 14px;
+}
+
+#nameScreen p {
+  font-family: "Montserrat";
+  color: black;
+  font-weight: 400;
+  font-size: 16px;
+}
+
+#nameScreen p b {
+  letter-spacing: 0.05rem;
+  -webkit-text-stroke: 0.65px black;
+}
+
+#successScreen {
+  background: url(./background.png);
+  background-position: center;
+  background-size: cover;
+}
+
+#successScreen p {
+  color: black;
+  text-align: center;
+  font-family: "Montserrat";
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 24px;
+  width: 80%;
+  margin: 18px auto 24px auto;
+}
+
+#successScreen h1 {
+  font-family: "Montserrat";
+  font-weight: 700;
+  font-size: 2rem;
+  line-height: 1.2;
+}
+
+#successScreen a {
+  color: #595a5a;
+  text-decoration: underline;
+}
