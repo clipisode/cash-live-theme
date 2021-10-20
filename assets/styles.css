@@ -82,7 +82,8 @@ body {
 }
 
 #introTerms a {
-  color: white;
+  color: #ffe256;
+  text-decoration: underline;
 }
 
 #buttonsContainer button {
@@ -156,6 +157,6 @@ body {
 }
 
 #successScreen a {
-  color: #595a5a;
+  color: #ffe256;
   text-decoration: underline;
 }
