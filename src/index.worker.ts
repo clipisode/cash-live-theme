@@ -62,7 +62,7 @@ export const siteData: any = {
               <img src="THEME_FILE_ROOT/icon.png" style="width: 150px; margin: 80px auto;" />
             </a>
           </div>
-          <h1 class="mt-12 my-6 mx-3 text-center">Nice work</h1>
+          <h1 class="mt-12 my-6 mx-3 text-center">Great work</h1>
           <p class="mt-12 my-6 mx-3 text-center">We got your video. Thanks!</p>
         </div>
       </div>
