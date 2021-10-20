@@ -13,7 +13,7 @@ export const siteData: any = {
   },
   introScreen: {
     // values: SOCIAL_NETWORK, BROWSER_NAME, TITLE, INVITATION_DISPLAY_NAME, EXTRA_TERMS, BRAND_SLUG, TERMS_SLUG, TERMS_NAME, BRAND_NAME
-    recordButtonLabel: "Record a video",
+    recordButtonLabel: "Record a video now",
     readyDescription: `
       <h1 class="text-center text-black font-heading font-extrabold p-0 text-2xl">Hang on</h1>
       <p class="text-left text-gray-700 text-sm py-3">The SOCIAL_NETWORK browser doesn’t support direct camera uploads on Android.</p>
