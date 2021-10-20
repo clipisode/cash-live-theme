@@ -137,7 +137,7 @@ body {
 }
 
 #successScreen p {
-  color: black;
+  color: white;
   text-align: center;
   font-family: "Montserrat";
   font-weight: 400;
@@ -152,6 +152,7 @@ body {
   font-weight: 700;
   font-size: 2rem;
   line-height: 1.2;
+  color: #ffe256;
 }
 
 #successScreen a {
